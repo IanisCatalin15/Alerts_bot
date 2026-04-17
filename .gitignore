@@ -1,0 +1,13 @@
+# Ignoră mediul virtual
+venv/
+env/
+
+# Ignoră fișierele cu parole (CRITIC!)
+.env
+
+# Ignoră baza de date locală (altfel îi strici starea celuilalt)
+state.db
+
+# Ignoră fișierele temporare generate de Python
+__pycache__/
+*.pyc
